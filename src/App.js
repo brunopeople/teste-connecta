@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 import './App.css';
 import Dashboard from '../src/components/Dashboard/Dashboard';
 import Login from '../src/components/Login/Login';
 import Preferences from '../src/components/Preferences/Preferences';
+import useToken from '../src/components/App/useToken';
 
 function App() {
-  const [token, setToken] = useState();
+
+  const { token, setToken } = useToken();
 
   if(!token) {
     return <Login setToken={setToken} />
