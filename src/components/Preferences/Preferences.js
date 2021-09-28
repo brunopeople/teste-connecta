@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Preferences() {
   return(
-    <h2>Preferences</h2>
+    <h2>Você conseguiu Logar!!</h2>
   );
 }
