@@ -17,3 +17,8 @@ Sistema Simples Desenvolvido pelo Framework Javascprit React.js utilizando o Loc
 * Dentro da raíz do projeto rode o prompt do node.js e rode o comando <strong>node server.js</strong> para rodar a api para gerar o token.
 * no navegador coloque o localhost:8080/login para ver o arquivo JSON para mostrar a senha da aplicação. 
 * Depois de baixar as depedências do projeto rode o comando <strong>npm start</strong> para rodar a aplicação. 
+
+
+## Link da Aplicação Rodando no Vercel
+
+https://teste-connecta-74la5hdn8-brunopeople.vercel.app/
